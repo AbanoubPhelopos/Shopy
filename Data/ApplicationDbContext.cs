@@ -6,5 +6,5 @@ namespace Shopy.Data;
 public class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options):base(options){ }
-    private DbSet<Category> Categories { get; set; }
+    public DbSet<Category> Categories { get; set; }
 }

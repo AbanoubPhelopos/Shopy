@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fYueyLv+sWylFw4oSQXj22iSknsgHO2+WJElNnnZzYY=",
+  "Hash": "0DpDQdugSgElwDPo75tnNXHb+icpXGc91NkieUsyadQ=",
   "Source": "Shopy",
   "BasePath": "_content/Shopy",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Shopy.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "Shopy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\",
+      "BasePath": "_content/Shopy",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\css\\site.css",
