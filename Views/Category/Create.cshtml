@@ -1,0 +1,47 @@
+﻿@model Category
+@{
+    Layout = "_DashBoard";
+}
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-dark ml-0 py-3">
+        <div class="row">
+            <div class="text-center col-12">
+                <h1>Edit Category</h1>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form method="post" class="container mt-5">
+            <div asp-validation-summary="All"></div>
+
+            <div class="form-group row">
+                <label for="Name" class="col-sm-2 col-form-label mb-3">Name:</label>
+                <div class="col-sm-10">
+                    <input type="text" id="Name" name="Name" asp-for="Name" class="form-control mb-3" >
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Description" class="col-sm-2 col-form-label mb-3">Description:</label>
+                <div class="col-sm-10">
+                    <input type="text" id="" name="Description" asp-for="Description" class="form-control mb-3">
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-outline-primary btn-lg mr-2 mt-4">
+                        <i class="bi bi-plus-circle"></i>                        Add
+                    </button>
+
+                    <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary btn-lg mt-4">Back to Category</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}
