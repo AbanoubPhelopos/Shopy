@@ -1,24 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Shopy.DataAccess.Data;
-using Shopy.DataAccess.Data;
 using Shopy.Entities.Models;
-using Shopy.Entities.Models;
+using Shopy.Reposatory;
 
 namespace Shopy.Controllers;
 
 public class CategoryController : Controller
 {
-    private readonly ApplicationDbContext _context;
-
-    public CategoryController(ApplicationDbContext context)
+    private IUnitOfWork _unitOfWork;
+    public CategoryController(IUnitOfWork unitOfWork)
     {
-        _context = context;
+        _unitOfWork = unitOfWork;
     }
     // GET
     [HttpGet]
     public IActionResult Index()
     {
-        var Categories = _context.Categories.ToList();
+        var Categories = _unitOfWork.Category.GetAll();
         return View(Categories);
     }
     [HttpGet]
@@ -32,8 +30,8 @@ public class CategoryController : Controller
     {
         if (ModelState.IsValid)
         {
-            _context.Add(category);
-            _context.SaveChanges();
+            _unitOfWork.Category.Add(category);
+            _unitOfWork.Complite();
             TempData["success"] = "The category has Created successfully";
             return RedirectToAction("Index");
         }
@@ -47,7 +45,8 @@ public class CategoryController : Controller
         {
             return NotFound();
         }
-        var category = _context.Categories.FirstOrDefault(category => category.Id==Id);
+
+        var category = _unitOfWork.Category.GetFirstOrDesault(x => x.Id == Id);
         return View(category);
     }
     [HttpPost]
@@ -56,8 +55,8 @@ public class CategoryController : Controller
     {
         if (ModelState.IsValid)
         {
-            _context.Update(category);
-            _context.SaveChanges();
+            _unitOfWork.Category.Update(category);
+            _unitOfWork.Complite();
             TempData["Info"] = "The category has Updated successfully";
             return RedirectToAction("Index");
         }
@@ -70,19 +69,20 @@ public class CategoryController : Controller
         {
             return NotFound();
         }
-        Category?  category = _context.Categories.FirstOrDefault(category => category.Id==Id);
+
+        Category? category = _unitOfWork.Category.GetFirstOrDesault(x => x.Id == Id);
         return View(category);
     }
     [HttpPost, ActionName("Delete")]
     public IActionResult DeletePost(int? Id)
     {
-        Category? category = _context.Categories.FirstOrDefault(category => category.Id==Id);
+        Category? category = _unitOfWork.Category.GetFirstOrDesault(x => x.Id == Id);
         if (category == null)
         {
             return NotFound();
         }
-        _context.Categories.Remove(category);
-        _context.SaveChanges();
+        _unitOfWork.Category.Remove(category);
+        _unitOfWork.Complite();
         TempData["error"] = "The category has deleted successfully";
         return RedirectToAction("Index");
     }
