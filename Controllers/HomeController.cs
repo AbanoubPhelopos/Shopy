@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Shopy.Models;
+using Shopy.Entities.Models;
 
 namespace Shopy.Controllers;
 

@@ -16,4 +16,9 @@
       </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Shopy.DataAccess\Shopy.DataAccess.csproj" />
+      <ProjectReference Include="..\Shopy.Entities\Shopy.Entities.csproj" />
+    </ItemGroup>
+
 </Project>

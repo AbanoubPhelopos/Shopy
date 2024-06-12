@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shopy.Data;
-using Shopy.Models;
+using Shopy.DataAccess.Data;
+using Shopy.DataAccess.Data;
+using Shopy.Entities.Models;
+using Shopy.Entities.Models;
 
 namespace Shopy.Controllers;
 
