@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shopy.DataAccess.Data;
 using Shopy.Entities.Models;
 using Shopy.Reposatory;
 
-namespace Shopy.Controllers;
+namespace Shopy.Areas.Admin.Controllers;
 
+[Area("Admin")]
 public class CategoryController : Controller
 {
     private IUnitOfWork _unitOfWork;
