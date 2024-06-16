@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\Shopy.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\Images\\Product\\b24dd7c7-d930-44da-9c48-36eff64516ba.png",
+      "PackagePath": "staticwebassets\\Images\\Product\\b24dd7c7-d930-44da-9c48-36eff64516ba.png"
+    },
+    {
+      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\Images\\Product\\ba6ef172-088e-4d4a-814d-5791ff880f65.png",
+      "PackagePath": "staticwebassets\\Images\\Product\\ba6ef172-088e-4d4a-814d-5791ff880f65.png"
+    },
+    {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\css\\adminlte.css",
       "PackagePath": "staticwebassets\\css\\adminlte.css"
     },
@@ -263,6 +271,10 @@
     {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\.eslintrc.json",
       "PackagePath": "staticwebassets\\js\\.eslintrc.json"
+    },
+    {
+      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\Product.js",
+      "PackagePath": "staticwebassets\\js\\Product.js"
     },
     {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\adminlte.js",

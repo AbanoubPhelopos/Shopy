@@ -1,0 +1,73 @@
+﻿@model ProductVM
+@{
+Layout = "_DashBoard";
+}
+//
+<div class="card shadow border-0 mt-4 col-8">
+    <div class="card-header bg-dark ml-0 py-3">
+        <div class="row">
+            <div class="text-center col-12">
+                <h1>Add Product</h1>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form method="post" class="container mt-5" enctype="multipart/form-data">
+            <div asp-validation-summary="All"></div>
+
+            <div class="form-group row">
+                <label asp-for="Product.Name" class="col-sm-2 col-form-label mb-3">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="Product.Name" class="form-control mb-3">
+                    <span asp-validation-for="Product.Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label asp-for="Product.Description" class="col-sm-2 col-form-label mb-3">Description</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="Product.Description" class="form-control mb-3">
+                    <span asp-validation-for="Product.Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label asp-for="Product.Price" class="col-sm-2 col-form-label mb-3">Price</label>
+                <div class="col-sm-10">
+                    <input type="number" asp-for="Product.Price" class="form-control mb-3">
+                    <span asp-validation-for="Product.Price" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Product.CategoryId" class="form-label mt-4">Category</label>
+                <select class="form-select" asp-for="Product.CategoryId" asp-items="Model.CategoryList">
+                    <option disabled selected>-- Select Category --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Product.Img" class="form-label mt-4">Product Image</label>
+                <input type="file" name="file" class="form-control">
+                <small class="form-text text-muted">Only .jpg, .png, .jpeg are allowed with a max size of 1MB.</small>
+                <span asp-validation-for="Product.Img" class="text-danger"></span>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-outline-primary btn-lg mr-2 mt-4">
+                        <i class="bi bi-plus-circle"></i>
+                        Add
+                    </button>
+
+                    <a asp-controller="Category" asp-action="Index" class="btn btn-outline-secondary btn-lg mt-4">Back to Products</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts
+{
+<partial name="_ValidationScriptsPartial"/>
+}
