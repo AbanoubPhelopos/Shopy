@@ -5,18 +5,19 @@ $(document).ready(function () {
 });
 
 function loadDataTable() {
-    dataTable = $('#tblData').DataTable({
+    dataTable = $("#tblData").DataTable({
         "ajax": {
             "url": '/Admin/Product/GetTableData',
-            "dataSrc": "data" // Specify the data source property
+            "type": "GET",
+            "datatype": "json"
         },
         "columns": [
-            { data: 'name' },
-            { data: 'description' },
-            { data: 'price' },
-            { data: 'category.name' },
+            { "data": 'name' },
+            { "data": 'description' },
+            { "data": 'price' },
+            { "data": 'category.name' },
             {
-                data: 'id',
+                "data": 'id',
                 "render": function (data) {
                     return `
                         <div>
@@ -26,7 +27,8 @@ function loadDataTable() {
                             <a href="/Admin/Product/Delete/${data}" class="btn btn-outline-danger">
                                 <i class="bi bi-trash3"></i> Delete
                             </a>
-                        </div>`;
+                        </div>
+                    `;
                 }
             }
         ]

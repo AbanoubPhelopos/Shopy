@@ -34,6 +34,39 @@
       <_ContentIncludedByDefault Remove="Areas\User\Views\Shared\_ValidationScriptsPartial.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\AdminLTELogo.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\avatar.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\avatar2.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\avatar3.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\avatar4.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\avatar5.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\boxed-bg.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\boxed-bg.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\credit\american-express.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\credit\cirrus.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\credit\mastercard.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\credit\paypal.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\credit\paypal2.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\credit\visa.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\default-150x150.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\icons.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\photo1.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\photo2.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\photo3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\photo4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\prod-1.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\prod-2.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\prod-3.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\prod-4.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\prod-5.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\user1-128x128.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\user2-160x160.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\user3-128x128.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\user4-128x128.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\user5-128x128.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\user6-128x128.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\user7-128x128.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\user8-128x128.jpg" />
     </ItemGroup>
 
     <ItemGroup>
@@ -46,6 +79,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="wwwroot\Admin\js\" />
       <Folder Include="wwwroot\Images\Product\" />
     </ItemGroup>
 

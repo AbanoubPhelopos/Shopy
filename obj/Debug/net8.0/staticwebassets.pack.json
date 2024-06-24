@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Shopy.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\Images\\Product\\a1d1f0a5-b9a0-4451-b669-007e7b267e66.png",
+      "PackagePath": "staticwebassets\\Images\\Product\\a1d1f0a5-b9a0-4451-b669-007e7b267e66.png"
+    },
+    {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\Images\\Product\\b24dd7c7-d930-44da-9c48-36eff64516ba.png",
       "PackagePath": "staticwebassets\\Images\\Product\\b24dd7c7-d930-44da-9c48-36eff64516ba.png"
     },
@@ -137,138 +141,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\AdminLTELogo.png",
-      "PackagePath": "staticwebassets\\img\\AdminLTELogo.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\avatar.png",
-      "PackagePath": "staticwebassets\\img\\avatar.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\avatar2.png",
-      "PackagePath": "staticwebassets\\img\\avatar2.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\avatar3.png",
-      "PackagePath": "staticwebassets\\img\\avatar3.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\avatar4.png",
-      "PackagePath": "staticwebassets\\img\\avatar4.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\avatar5.png",
-      "PackagePath": "staticwebassets\\img\\avatar5.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\boxed-bg.jpg",
-      "PackagePath": "staticwebassets\\img\\boxed-bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\boxed-bg.png",
-      "PackagePath": "staticwebassets\\img\\boxed-bg.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\credit\\american-express.png",
-      "PackagePath": "staticwebassets\\img\\credit\\american-express.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\credit\\cirrus.png",
-      "PackagePath": "staticwebassets\\img\\credit\\cirrus.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\credit\\mastercard.png",
-      "PackagePath": "staticwebassets\\img\\credit\\mastercard.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\credit\\paypal.png",
-      "PackagePath": "staticwebassets\\img\\credit\\paypal.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\credit\\paypal2.png",
-      "PackagePath": "staticwebassets\\img\\credit\\paypal2.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\credit\\visa.png",
-      "PackagePath": "staticwebassets\\img\\credit\\visa.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\default-150x150.png",
-      "PackagePath": "staticwebassets\\img\\default-150x150.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\icons.png",
-      "PackagePath": "staticwebassets\\img\\icons.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\photo1.png",
-      "PackagePath": "staticwebassets\\img\\photo1.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\photo2.png",
-      "PackagePath": "staticwebassets\\img\\photo2.png"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\photo3.jpg",
-      "PackagePath": "staticwebassets\\img\\photo3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\photo4.jpg",
-      "PackagePath": "staticwebassets\\img\\photo4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\prod-1.jpg",
-      "PackagePath": "staticwebassets\\img\\prod-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\prod-2.jpg",
-      "PackagePath": "staticwebassets\\img\\prod-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\prod-3.jpg",
-      "PackagePath": "staticwebassets\\img\\prod-3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\prod-4.jpg",
-      "PackagePath": "staticwebassets\\img\\prod-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\prod-5.jpg",
-      "PackagePath": "staticwebassets\\img\\prod-5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\user1-128x128.jpg",
-      "PackagePath": "staticwebassets\\img\\user1-128x128.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\user2-160x160.jpg",
-      "PackagePath": "staticwebassets\\img\\user2-160x160.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\user3-128x128.jpg",
-      "PackagePath": "staticwebassets\\img\\user3-128x128.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\user4-128x128.jpg",
-      "PackagePath": "staticwebassets\\img\\user4-128x128.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\user5-128x128.jpg",
-      "PackagePath": "staticwebassets\\img\\user5-128x128.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\user6-128x128.jpg",
-      "PackagePath": "staticwebassets\\img\\user6-128x128.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\user7-128x128.jpg",
-      "PackagePath": "staticwebassets\\img\\user7-128x128.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\img\\user8-128x128.jpg",
-      "PackagePath": "staticwebassets\\img\\user8-128x128.jpg"
-    },
-    {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\.eslintrc.json",
       "PackagePath": "staticwebassets\\js\\.eslintrc.json"
     },
@@ -293,10 +165,6 @@
       "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\demo.js",
-      "PackagePath": "staticwebassets\\js\\demo.js"
-    },
-    {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\pages\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\pages\\dashboard.js"
     },
@@ -307,10 +175,6 @@
     {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\pages\\dashboard3.js",
       "PackagePath": "staticwebassets\\js\\pages\\dashboard3.js"
-    },
-    {
-      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\lib\\bootstrap\\LICENSE",

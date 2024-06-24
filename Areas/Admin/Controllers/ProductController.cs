@@ -24,8 +24,8 @@ public class ProductController : Controller
     }
     public IActionResult GetTableData()
     {
-        var products = _unitOfWork.Product.GetAll(includeWord:"Category");
-        return Json(new { data = products});
+        var products = _unitOfWork.Product.GetAll(includeWord: "Category");
+        return Json(new { data = products });
     }
     [HttpGet]
     public IActionResult Create()
