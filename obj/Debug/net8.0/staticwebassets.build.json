@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7skcWb+Lf7XVtYT1JOh1tfyYgAOs/Nl9sjCVuFuyen4=",
+  "Hash": "oMnRKVDjuRl4yTuSM74EkXW9uF1pxTjUZ3/RBHly6wE=",
   "Source": "Shopy",
   "BasePath": "_content/Shopy",
   "Mode": "Default",
@@ -794,6 +794,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\adminlte.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\Category.js",
+      "SourceId": "Shopy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\",
+      "BasePath": "_content/Shopy",
+      "RelativePath": "js/Category.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Category.js"
     },
     {
       "Identity": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\pages\\dashboard.js",

@@ -16,8 +16,12 @@ public class CategoryController : Controller
     [HttpGet]
     public IActionResult Index()
     {
-        var Categories = _unitOfWork.Category.GetAll();
-        return View(Categories);
+        return View();
+    }
+    public IActionResult GetTableData()
+    {
+        var categories = _unitOfWork.Category.GetAll();
+        return Json(new { data = categories });
     }
     [HttpGet]
     public IActionResult Create()

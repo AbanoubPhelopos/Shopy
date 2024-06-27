@@ -145,6 +145,10 @@
       "PackagePath": "staticwebassets\\js\\.eslintrc.json"
     },
     {
+      "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\Category.js",
+      "PackagePath": "staticwebassets\\js\\Category.js"
+    },
+    {
       "Id": "C:\\Users\\Abanoub\\RiderProjects\\Shopy\\Shopy\\wwwroot\\js\\Product.js",
       "PackagePath": "staticwebassets\\js\\Product.js"
     },

@@ -40127,35 +40127,6 @@ select.form-control-sm ~ .select2-container--default .select2-selection--multipl
   color: #2b2b2b;
 }
 
-.swal2-icon.swal2-info {
-  border-color: ligthen(#17a2b8, 20%);
-  color: #17a2b8;
-}
-
-.swal2-icon.swal2-warning {
-  border-color: ligthen(#ffc107, 20%);
-  color: #ffc107;
-}
-
-.swal2-icon.swal2-error {
-  border-color: ligthen(#dc3545, 20%);
-  color: #dc3545;
-}
-
-.swal2-icon.swal2-question {
-  border-color: ligthen(#6c757d, 20%);
-  color: #6c757d;
-}
-
-.swal2-icon.swal2-success {
-  border-color: ligthen(#28a745, 20%);
-  color: #28a745;
-}
-
-.swal2-icon.swal2-success .swal2-success-ring {
-  border-color: ligthen(#28a745, 20%);
-}
-
 .swal2-icon.swal2-success [class^='swal2-success-line'] {
   background-color: #28a745;
 }
