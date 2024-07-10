@@ -21,7 +21,7 @@ public class ProductRepopsatory :GenericReposatory<Product>,IProductReposatory
             productFromDb.Description = product.Description;
             productFromDb.Img = product.Img;
             productFromDb.Price = product.Price;
-            
+            productFromDb.CategoryId = product.CategoryId;
             _context.Update(productFromDb);
         }
         

@@ -72,7 +72,7 @@ public class ProductController : Controller
                     file.CopyTo(filestream);
                 }
 
-                productVM.Product.Img = @"Images\Product" + filename + ext;
+                productVM.Product.Img = @"Images\Product\" + filename + ext;
 
             }
             
@@ -92,22 +92,50 @@ public class ProductController : Controller
         {
             return NotFound();
         }
-
-        var product = _unitOfWork.Product.GetFirstOrDesault(x => x.Id == Id);
-        return View(product);
+        ProductVM productVm = new ProductVM()
+        {
+            Product = _unitOfWork.Product.GetFirstOrDesault(x => x.Id == Id),
+            CategoryList = _unitOfWork.Category.GetAll().Select(x => new SelectListItem()
+            {
+                Text = x.Name,
+                Value = x.Id.ToString(),
+            })
+        };
+        return View(productVm);
     }
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public IActionResult Edit(Product product)
+    public IActionResult Edit(ProductVM productVM, IFormFile? file)
     {
         if (ModelState.IsValid)
         {
-            _unitOfWork.Product.Update(product);
+            string RootPath = _webHostEnvironment.WebRootPath;
+            if (file != null)
+            {
+                string filename = Guid.NewGuid().ToString();
+                var upload = Path.Combine(RootPath, @"Images\Product");
+                var ext = Path.GetExtension(file.FileName);
+
+                if (productVM.Product.Img != null)
+                {
+                    var oldImg = Path.Combine(RootPath, productVM.Product.Img).TrimStart('\\');
+                    if (System.IO.File.Exists(oldImg))
+                    {
+                        System.IO.File.Delete(oldImg);
+                    }
+                }
+                using (var filestream = new FileStream(Path.Combine(upload, filename + ext),FileMode.Create)) 
+                {
+                    file.CopyTo(filestream);
+                }
+                productVM.Product.Img = @"Images\Product" + filename + ext;
+            }
+            _unitOfWork.Product.Update(productVM.Product);
             _unitOfWork.Complite();
             TempData["Info"] = "The product has Updated successfully";
             return RedirectToAction("Index");
         }
-        return View();
+        return View(productVM);
     }
     [HttpGet]
     public IActionResult Delete(int? Id)
